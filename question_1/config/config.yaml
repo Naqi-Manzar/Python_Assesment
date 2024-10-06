@@ -1,0 +1,9 @@
+# config/config.yaml
+input_files:
+  region_a: "/path/to/order_region_a.csv"
+  region_b: "/path/to/order_region_b.csv"
+
+database:
+  type: "sqlite"
+  name: "sales_data.db"
+  table: "sales_data"
